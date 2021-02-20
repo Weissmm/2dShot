@@ -186,11 +186,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (isJump)
         {
-            if (jumpHeld)
-            {
-                rb.AddForce(new Vector2(0f, jumpHoldForce), ForceMode2D.Impulse);
-
-            }
             if (jumpTime < Time.time)
             {
                 isJump = false;

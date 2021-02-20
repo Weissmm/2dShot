@@ -67,6 +67,8 @@
     <Compile Include="Assets\GrottoEscapeArtwork\Scripts\GhostMove.cs" />
     <Compile Include="Assets\GrottoEscapeArtwork\Scripts\PlayerShot.cs" />
     <Compile Include="Assets\GrottoEscapeArtwork\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\GrottoEscapeArtwork\Scripts\FinMenu.cs" />
+    <Compile Include="Assets\GrottoEscapeArtwork\Scripts\Zone.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
