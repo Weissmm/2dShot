@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - CameraShake
   layers:
   - Default
   - TransparentFX
@@ -13,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - Background
-  - Platforms
-  - 
+  - Ground
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3378746345
+    locked: 0
+  - name: Platform
+    uniqueID: 1201511385
+    locked: 0
+  - name: Enemy
+    uniqueID: 1607234351
+    locked: 0
+  - name: Player
+    uniqueID: 3907232027
     locked: 0
